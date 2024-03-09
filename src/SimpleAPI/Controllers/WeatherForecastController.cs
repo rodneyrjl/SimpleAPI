@@ -29,7 +29,7 @@ public class WeatherForecastController : ControllerBase
         {
             Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
             TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = "Hot" //Summaries[Random.Shared.Next(Summaries.Length)]
+            Summary = "Hot12" //Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
     }
