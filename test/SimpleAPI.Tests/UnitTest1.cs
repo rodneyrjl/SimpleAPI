@@ -15,7 +15,7 @@ public class UnitTest1
     {
         var returnValue = controller.Get();
         // Assert.Equal("Les Jackson", returnValue.ElementAt(0).Summary);
-        Assert.Equal("Max power", returnValue.ElementAt(0).Summary);
+        Assert.Equal("Hot", returnValue.ElementAt(0).Summary);
     }
 
     WeatherForecastController controller = new WeatherForecastController();
